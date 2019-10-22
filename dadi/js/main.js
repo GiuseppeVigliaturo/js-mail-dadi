@@ -25,3 +25,41 @@ else {
   document.getElementById("risultato").innerHTML = "Ritenta sarai più fortunato";
 
 }
+
+if (punteggio == 1) {
+  document.getElementById("imgD1").src = "faccia1.jpg"
+}
+else if (punteggio == 2) {
+  document.getElementById("imgD1").src = "faccia2.png"
+}
+else if (punteggio == 3) {
+  document.getElementById("imgD1").src = "faccia3.png"
+}
+else if (punteggio == 4) {
+  document.getElementById("imgD1").src = "faccia4.png"
+}
+else if (punteggio == 5) {
+  document.getElementById("imgD1").src = "faccia5.jpg"
+}
+else if (punteggio == 6) {
+  document.getElementById("imgD1").src = "faccia6.png"
+}
+
+if (avversario == 1) {
+  document.getElementById("imgD2").src = "faccia1.jpg"
+}
+else if (avversario == 2) {
+  document.getElementById("imgD2").src = "faccia2.png"
+}
+else if (avversario == 3) {
+  document.getElementById("imgD2").src = "faccia3.png"
+}
+else if (avversario == 4) {
+  document.getElementById("imgD2").src = "faccia4.png"
+}
+else if (avversario == 5) {
+  document.getElementById("imgD2").src = "faccia5.jpg"
+}
+else if (avversario == 6) {
+  document.getElementById("imgD2").src = "faccia6.png"
+}

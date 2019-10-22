@@ -2,10 +2,53 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Gioco dadi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+
   </head>
   <body>
 
+    <!-- heder con titolo del gioco  -->
+    <header>
+      <div class="titolo text-center">
+        <h1>GIOCO DEI DADI</h1>
+
+      </div>
+    </header>
+
+    <!-- layout contenente l'immagine dei due dadi  -->
+
+  <div class="contenitore-dadi">
+
+    <div class="dado1">
+      <div id="d1">
+        <img class="facciadado" id="imgD1" src="" alt="">
+
+        <button class="bottoneplay" type="button" class="btn btn-primary btn-lg">GIOCA</button>
+
+      </div>
+
+
+    </div><!-- fine dado1  -->
+
+    <div class="dado2">
+      <div id="d2">
+        <img class="facciadado" id="imgD2" src="" alt="">
+
+
+        <button class="bottoneplay" type="button" class="btn btn-primary btn-lg">GIOCA</button>
+
+      </div>
+
+    </div> <!-- fine dado2  -->
+
+  </div> <!-- fine contenitore dadi  -->
+
+
+
+  <div class="contenitore-js">
     <div id="puntiplayer">
 
     </div>
@@ -16,7 +59,25 @@
     <div id="risultato">
 
     </div>
-    
+
+    <button class="" type="button" class="btn btn-primary btn-lg">Altro lancio</button>
+
+  </div> <!-- fine contenitore js  -->
+
+  <footer>
+    <div class="contatti">
+      <h5>Giuseppe Vigliaturo</h5>
+
+      <div class="social">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+
+      </div>
+    </div>
+  </footer>
+
+
     <script type="text/javascript" src="js/main.js">
     </script>
   </body>
